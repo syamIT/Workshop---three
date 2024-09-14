@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 200px;
+    z-index: 1;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        padding-top: 90px;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+        li a:hover{
+            border: blue;
+            color: blue;
+            /* background-color: blue; */
+            padding: 5px;
+            text-decoration: underline;
+        }
+        li:first-child :hover{
+            border: blue;
+            /* background-color: blue; */
+            padding: 5px;
+        }
+        select{
+            background-color: blue;
+
+        }
+
+        select:hover{
+            
+            /* background-color: blue; */
+        }
+        #search{
+            border-radius: 20px;
+            width: 120px;
+            height: 40px;
+            border: none;
+            
+        }
+
+
+        
+    }
+    /* nav input:focus{
+        transform: scale(1.5);
+    } */
+    #search:hover{
+        transform: scaleX(1.5);
+    }
+    .Home{
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+
+}
+.video{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+.main{
+    display: flex;
+    
+}
+
+
+
+.main-sidebar{
+    height: 500px;
+    width: 250px;
+    background-color: antiquewhite;
+    a{
+        margin-left: 20px;
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+        color: blue;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+}
+
+.table_page{
+    ifrmae{
+    width: 90%;
+    height: 70%;
+    background-color: gray;
+    overflow-x: hidden;
+    }
+}
+
+
+footer{
+    background-color: rgb(109, 105, 105);
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: -20px -20px 20px rgb(95, 95, 95);;
+}
+footer ul{
+    list-style: none;
+    height: 200px;
+    line-height: 30px;
+    hr{
+        width: 200%;
+    }
+    z-index: -10;
+}
